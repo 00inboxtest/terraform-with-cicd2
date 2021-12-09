@@ -29,7 +29,7 @@ variable "zone" {
 
 variable "instance_machine_type" {
   type        = string
-  default     = "e2-medium"
+  default     = "e2-micro"
   description = "The type of GCE VM instance for each nodes."
 }
 
