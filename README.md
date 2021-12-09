@@ -1,6 +1,6 @@
 # Automating Terraform with GitHub Actions
 
-[![terraform-automation](https://github.com/r4rohan/terraform-with-cicd/actions/workflows/terraform.yml/badge.svg?branch=main)](https://github.com/r4rohan/terraform-with-cicd/actions/workflows/terraform.yml)
+[![terraform-automation](https://github.com/r4rohan/terraform-with-cicd/actions/workflows/terraform.yml)
 
 
 **Main Points**
@@ -10,6 +10,3 @@
 * Terraform code must be properly formatted which is considered a good practice else terraform format validation will throw an error and the pipeline would get stopped.
 * Manual Approval before applying terraform apply stage.
 
-Clap and share if you find it useful.
-
-_Contributions are most welcome_
