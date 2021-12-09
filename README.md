@@ -11,6 +11,4 @@ Follow Medium blog for steps: [Automating Terraform with GitHub Actions]
 * Terraform code must be properly formatted which is considered a good practice else terraform format validation will throw an error and the pipeline would get stopped.
 * Manual Approval before applying terraform apply stage.
 
-Clap and share if you find it useful.
 
-_Contributions are most welcome_
