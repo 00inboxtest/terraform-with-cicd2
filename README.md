@@ -1,4 +1,4 @@
-**Main Points**
+***********Main Points**************
 * GCS bucket is serving as terraform backend.
 * Workflow offers concurrency which means only one workflow can be run at a time; I’ve done this to prevent our terraform state from locking and getting corrupted.
 * Terraform Plan generates a plan file which is further used by terraform apply. This is done to prevent uninformed changes b/w plan and apply.
