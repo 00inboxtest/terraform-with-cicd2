@@ -1,5 +1,3 @@
-# Automating Terraform with GitHub Actions
-
 **Main Points**
 * GCS bucket is serving as terraform backend.
 * Workflow offers concurrency which means only one workflow can be run at a time; I’ve done this to prevent our terraform state from locking and getting corrupted.

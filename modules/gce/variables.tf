@@ -39,7 +39,6 @@ variable "network_tags" {
   description = "A list of network tags to attach to the instance."
 }
 
-
 variable "boot_disk_size" {
   type        = number
   default     = 50
